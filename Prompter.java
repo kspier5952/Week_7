@@ -11,7 +11,7 @@ public class Prompter {
         max = input.nextDouble();
         num = min;
         while ( num <= min || num >= max){
-            System.out.print("Enter a number that is between " + min + " and " + max + ":");
+            System.out.print("Enter a number that is between " + min + " and " + max + ": ");
             num = input.nextDouble();
         }
         input.close();
